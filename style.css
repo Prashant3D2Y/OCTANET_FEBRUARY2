@@ -1,0 +1,113 @@
+                /* Fonts */
+                
+                @font-face {
+                    font-family: 'LemonMilklight';
+                    src: url('LemonMilklight.otf');
+                }
+                
+                @font-face {
+                    font-family: 'Summer Font Light';
+                    src: url('Summer Font Light.otf');
+                }
+                /* Body specifications */
+                
+                body {
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    background-image: url("TODO.jpg");
+                }
+                /*Title div Header */
+                
+                .title {
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+                }
+                
+                h1 {
+                    font-size: 50px;
+                    font-family: 'Summer Font Light';
+                    color: whitesmoke;
+                    text-align: center;
+                    padding-top: 40px;
+                    padding-bottom: 40px;
+                    margin: auto;
+                }
+                /* Form Div */
+                
+                .todo {
+                    width: 80%;
+                    height: 100px;
+                    margin-bottom: auto;
+                    margin-left: auto;
+                    margin-right: auto;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                }
+                
+                label {
+                    font-family: "Summer Font Light";
+                    font-size: 30px;
+                    color: white;
+                }
+                
+                fieldset {
+                    border: none;
+                    width: 100%;
+                    height: 100px;
+                    margin: auto;
+                    display: flex;
+                }
+                /* INPUTS */
+                
+                #titre {
+                    font-family: "LemonMilklight";
+                    color: black;
+                    height: 30px;
+                    padding: 10px;
+                    font-size: 10px;
+                    border: 2px solid #FFF;
+                }
+                
+                #liste {
+                    font-family: "LemonMilklight";
+                    color: black;
+                    height: 30px;
+                    padding: 10px;
+                    margin-left: 10px;
+                    font-size: 10px;
+                    border: 2px solid #FFF;
+                }
+                
+                div {
+                    width: 50%;
+                }
+                
+                form {
+                    height: 200px;
+                    display: flex;
+                }
+                /* button */
+                
+                #button {
+                    width: 60px;
+                    height: 40px;
+                    font-family: "LemonMilklight";
+                    padding: 10px;
+                    font-size: 16px;
+                    margin: 10px;
+                    color: #FFF;
+                    border: 2px solid #FFF;
+                    background-color: rgba(0, 0, 0, 0);
+                }
+                
+                #button:hover {
+                    box-shadow: 15px 15px 15px 15px black inset;
+                }
+                
+                a:focus {
+                    outline: 0;
+                }
